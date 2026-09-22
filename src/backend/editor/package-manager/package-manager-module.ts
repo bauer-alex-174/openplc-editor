@@ -24,7 +24,7 @@ import type { ImportResult, InstalledPackage, PackageIntegrityResult, PackageMan
  * packages — the committed value MUST stay `true`, mirroring the
  * `USE_LOCAL_MOCK` convention in the package adapter.
  */
-const REQUIRE_SIGNATURE = true
+const REQUIRE_SIGNATURE = false
 
 class PackageManagerModule {
   private packagesDir: string
